@@ -86,7 +86,7 @@
             body: JSON.stringify({
                 contents: [{
                     parts: [
-                        { text: "You are a helpful, knowledgeable chatbot named Gemini..." },
+                        { text: "You are a helpful, knowledgeable chatbot named Gemini. You can assist with anything, including coding, tech support, general advice, and casual conversation. Keep responses clear, concise, and adapt your tone based on the user's approach. If the user greets you casually, respond casually. If they ask professionally, respond formally. Keep responses medium-length unless asked otherwise." },
                         ...history.map(msg => ({ text: msg })),
                         { text: userInput }
                     ]
