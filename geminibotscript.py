@@ -3,7 +3,7 @@ import json
 
 
 def chat_with_gemini(user_input, history):
-    API_KEY = "AIzaSyDIC3cUDgmBoFnx0vZDHH3g0IyawU4zQD0"  # Replace with your actual API key
+    API_KEY = "GEMINIAPI"  # Replace with your actual API key
     URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key={API_KEY}"
 
     headers = {"Content-Type": "application/json"}
